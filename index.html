@@ -81,7 +81,7 @@ function refreshExtras(){
  // Percent coordinates correspond to landmarks on the cited community map images.
  const positions={
  first:{'Pirate Starter Island':[68,53],'Marine Starter Island':[33,53],'Middle Town':[50,46],'Jungle':[48,25],'Pirate Village':[45,71],'Desert':[65,74],'Frozen Village':[66,24],'Marine Fortress':[19,60],'Skylands':[20,30],'Prison':[87,46],'Colosseum':[32,18],'Magma Village':[13,80],'Underwater City':[82,16],'Fountain City':[84,79],'Jean-Luc Island':[30,70],'Upper Skylands':[8,16]},
- second:{'Kingdom of Rose':[48,70],'Green Zone':[37,45],'Graveyard':[54,36],'Snow Mountain':[81,29],'Hot and Cold':[20,37],'Hot & Cold':[20,37],'Cursed Ship':[17,58],'Ice Castle':[34,12],'Dark Arena':[70,45],'Forgotten Island':[76,27]},
+ second:{'Kingdom of Rose':[59,80],'Green Zone':[37,55],'Graveyard':[20,69],'Snow Mountain':[53,45],'Hot and Cold':[19,43],'Hot & Cold':[19,43],'Cursed Ship':[14,76],'Ice Castle':[81,38],'Dark Arena':[69,53],'Forgotten Island':[35,14]},
  third:{'Port Town':[25,58],'Hydra Island':[34,80],'Great Tree':[52,85],'Floating Turtle':[72,49],'Haunted Castle':[32,35],'Castle on the Sea':[51,60],'Sea of Treats':[70,76],'Tiki Outpost':[52,44]}
  };
  const all=document.createElement('button');all.textContent='All islands';all.type='button';all.setAttribute('aria-pressed',String($('islandFilter').value==='all'));all.addEventListener('click',()=>{$('islandFilter').value='all';render()});map.append(all);
